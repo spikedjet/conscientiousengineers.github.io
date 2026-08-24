@@ -1,0 +1,38 @@
+:root {
+  /* Neutral: bright readable text on pure black */
+  --color-neutral: 240, 235, 230;
+  --color-neutral-50: 255, 252, 250;
+  --color-neutral-100: 240, 235, 228;
+  --color-neutral-200: 215, 208, 200;
+  --color-neutral-300: 190, 182, 172;
+  --color-neutral-400: 155, 146, 136;
+  --color-neutral-500: 110, 102, 94;
+  --color-neutral-600: 65, 58, 52;
+  --color-neutral-700: 35, 30, 26;
+  --color-neutral-800: 16, 13, 10;
+  --color-neutral-900: 0, 0, 0;
+
+  /* Primary: warm red */
+  --color-primary-50: 255, 245, 243;
+  --color-primary-100: 255, 210, 205;
+  --color-primary-200: 255, 150, 140;
+  --color-primary-300: 230, 80, 65;
+  --color-primary-400: 200, 45, 30;
+  --color-primary-500: 170, 35, 22;
+  --color-primary-600: 140, 28, 18;
+  --color-primary-700: 110, 20, 12;
+  --color-primary-800: 80, 14, 8;
+  --color-primary-900: 50, 8, 4;
+
+  /* Secondary: bright neon yellow */
+  --color-secondary-50: 255, 255, 248;
+  --color-secondary-100: 255, 255, 210;
+  --color-secondary-200: 255, 255, 150;
+  --color-secondary-300: 255, 245, 60;
+  --color-secondary-400: 255, 235, 0;
+  --color-secondary-500: 245, 220, 0;
+  --color-secondary-600: 210, 185, 0;
+  --color-secondary-700: 170, 148, 0;
+  --color-secondary-800: 130, 110, 0;
+  --color-secondary-900: 85, 72, 0;
+}

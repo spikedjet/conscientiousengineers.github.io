@@ -1,0 +1,48 @@
+colorScheme = "neonforge"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+
+enableSearch = true
+enableCodeCopy = true
+
+[homepage]
+  layout = "profile"
+  homepageImage = ""
+  showRecent = true
+  showRecentItems = 5
+  showMoreLink = true
+  showMoreLinkDest = "/articles"
+  cardView = true
+
+[article]
+  showDate = true
+  showDateOnlyInArticle = false
+  showDateUpdated = false
+  showAuthor = true
+  showBreadcrumbs = true
+  showTableOfContents = true
+  showTaxonomies = true
+  showWordCount = false
+  showEdit = false
+  showComments = false
+  showSummary = true
+
+[list]
+  showBreadcrumbs = true
+  showSummary = true
+  showTableOfContents = false
+  groupByYear = true
+  cardView = true
+
+[taxonomy]
+  showTermCount = true
+  showBreadcrumbs = true
+
+[header]
+  layout = "basic"
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true

@@ -1,0 +1,8 @@
+locale = "en"
+label = "English"
+weight = 1
+title = "Conscientious Engineers"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
