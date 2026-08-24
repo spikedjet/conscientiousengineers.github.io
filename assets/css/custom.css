@@ -7,6 +7,48 @@ html {
 body {
   font-family: 'Courier New', Courier, monospace;
   letter-spacing: 0.02em;
+  overflow-x: hidden;
+}
+
+/* ---- Responsive: fit any width ---- */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img, video, iframe, embed, object {
+  max-width: 100%;
+  height: auto;
+}
+
+pre, code, table {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+main, article, section, .container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .card,
+  article .card,
+  [class*="article-link"] {
+    padding: 0.4rem 0.5rem !important;
+  }
 }
 
 /* ---- Headings ---- */
