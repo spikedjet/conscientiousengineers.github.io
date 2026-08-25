@@ -7,6 +7,15 @@ html {
 body {
   font-family: 'Courier New', Courier, monospace;
   letter-spacing: 0.02em;
+  max-width: 100% !important;
+}
+
+/* ---- Content column: narrower centered main area ---- */
+main#main-content {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 /* ---- Headings ---- */
@@ -83,7 +92,25 @@ input[type="text"] {
   border-radius: 0 !important;
 }
 
-/* ---- Cards: thick bright red borders ---- */
+/* ---- Card grid: consistent columns ---- */
+section.grid {
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 1rem !important;
+}
+
+@media (max-width: 768px) {
+  section.grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  section.grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ---- Cards: thick bright red borders, fixed height ---- */
 .card,
 article .card,
 [class*="article-link"] {
@@ -93,6 +120,10 @@ article .card,
   padding: 0.5rem 0.75rem !important;
   box-shadow: 0 0 8px rgba(255, 40, 25, 0.15);
   transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card:hover,
@@ -102,6 +133,12 @@ article .card:hover,
   border-left-color: rgba(255, 235, 0, 0.9) !important;
   background: rgba(30, 22, 12, 0.8) !important;
   box-shadow: 0 0 14px rgba(255, 40, 25, 0.25);
+}
+
+/* ---- Card meta/tags spacing from summary ---- */
+[class*="article-link"] .text-sm,
+.card .text-sm {
+  margin-bottom: 0.75rem;
 }
 
 /* ---- Tags: bright neon yellow ---- */
