@@ -1,5 +1,10 @@
 /* === NEON FORGE — Black/Red/Yellow, clean angular === */
 
+html,
+body {
+  min-height: 100vh;
+}
+
 html {
   background-color: #000;
 }
@@ -7,6 +12,7 @@ html {
 body {
   font-family: 'Courier New', Courier, monospace;
   letter-spacing: 0.02em;
+  height: auto !important;
   max-width: 100% !important;
 }
 
