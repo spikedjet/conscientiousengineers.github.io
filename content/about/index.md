@@ -4,6 +4,9 @@ description: "About Conscientious Engineers"
 showDate: false
 showAuthor: false
 showTableOfContents: false
+showWordCount: false
+showReadingTime: false
+showBreadcrumbs: false
 ---
 
 Conscientious Engineers is a community of engineers committed to building technology with purpose, ethics, and responsibility.

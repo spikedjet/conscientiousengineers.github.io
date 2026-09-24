@@ -4,6 +4,7 @@ autoSwitchAppearance = false
 
 enableSearch = true
 enableCodeCopy = true
+copyright = "© { year } Conscientious Engineers. All rights reserved."
 
 [homepage]
   layout = "profile"
@@ -43,6 +44,6 @@ enableCodeCopy = true
 
 [footer]
   showCopyright = true
-  showThemeAttribution = true
-  showAppearanceSwitcher = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = false
   showScrollToTop = true
