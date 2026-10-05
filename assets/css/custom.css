@@ -6,13 +6,14 @@ body {
 }
 
 html {
-  background-color: #0e0d0c;
+  background-color: #181614;
 }
 
 body {
   font-family: 'Courier New', Courier, monospace;
   letter-spacing: 0.02em;
   line-height: 1.8;
+  font-size: 1.05rem;
   height: auto !important;
   max-width: 100% !important;
 }
@@ -168,9 +169,9 @@ aside .toc,
 h1 {
   border-bottom: 1px solid rgba(158, 50, 38, 0.35);
   padding-bottom: 0.5rem;
-  color: rgba(185, 85, 72, 1) !important;
-  font-weight: 200;
-  text-shadow: 0 0 20px rgba(158, 50, 38, 0.2);
+  color: rgba(200, 100, 80, 1) !important;
+  font-weight: 500;
+  text-shadow: none;
 }
 
 /* ---- H2: red left accent ---- */
@@ -190,9 +191,9 @@ section > h2:first-child {
   padding-left: 0;
   padding-bottom: 0.5rem;
   display: inline-block;
-  font-weight: 200;
-  color: rgba(185, 85, 72, 1) !important;
-  text-shadow: 0 0 20px rgba(158, 50, 38, 0.15);
+  font-weight: 500;
+  color: rgba(200, 100, 80, 1) !important;
+  text-shadow: none;
 }
 
 /* ---- Card article titles ---- */
@@ -200,8 +201,8 @@ section > h2:first-child {
 .card h3,
 [class*="article-link"] h2,
 [class*="article-link"] h3 {
-  color: rgba(215, 150, 142, 1) !important;
-  font-weight: 300;
+  color: rgba(220, 120, 100, 1) !important;
+  font-weight: 500;
   text-shadow: none;
   border-left: none;
   padding-left: 0;
@@ -232,7 +233,7 @@ section + div a {
   padding: 0.5rem 1.5rem !important;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   font-family: 'Courier New', Courier, monospace;
   transition: border-color 0.2s ease, background 0.2s ease;
   text-decoration: none !important;
@@ -264,13 +265,13 @@ section + div a button {
 header nav a[aria-current="page"],
 header nav a[aria-current="true"],
 header nav a.active {
-  color: rgba(185, 85, 72, 1) !important;
+  color: rgba(140, 60, 45, 1) !important;
   border-bottom: 1px solid rgba(158, 50, 38, 0.5);
 }
 
 /* ---- Footer polish ---- */
 footer {
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   letter-spacing: 0.04em;
   opacity: 0.7;
 }
